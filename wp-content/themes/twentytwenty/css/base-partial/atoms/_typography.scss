@@ -42,14 +42,14 @@ h1 {
 }
 h2 { 
     font-family: 'Playfair Display', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 27px;
     line-height: 37px;
     color: $green-col;
     margin-bottom: 15px;
     @media only screen and (max-width: 1024px) {
-        font-size: 27px;
-        line-height: 32px;
+        font-size: 22px;
+        line-height: 28px;
         margin-bottom: 15px;
         br{display: none;}
     }
@@ -80,13 +80,13 @@ h5 {
     line-height: 24px;
 }
 h6 { 
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 14px;
+    line-height: 14px;
     letter-spacing: 1.47px;
     color: #847367;
     text-transform: uppercase;
     opacity: 1;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: 400;
 }
 
@@ -98,6 +98,10 @@ p {
     line-height: 27px;
     margin-bottom: 0px;
     color:$grey-col;
+    @media only screen and (max-width: 1024px){
+        font-size: 14px;
+        line-height: 20px;
+    }
     &.lg-text{
         font-size: 16px;
         line-height: 25px;

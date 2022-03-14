@@ -21,7 +21,19 @@ $title = get_the_title();
 		?>
 		    <meta charset="utf-8" />
 		    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, viewport-fit=cover">
-		    <title>Spread | Home</title>
+		    <title>spread-vienna.com</title>
+			<meta name="description" content=""/>
+			<meta name="keywords" content=""/>
+			<meta property="og:title" content="" />
+			<meta property="og:description" content="" />
+			<meta property="og:url" content="" />
+			<meta property="og:image" content="http://www.greenweeks.at/wp-content/themes/twentytwenty/images/og-image.png" />
+			<meta property='og:image:type' content='image/png' />
+			<meta property="og:image:width" content="200" />
+			<meta property="og:image:height" content="200" />
+			<meta property="og:type" content="article" />
+			<meta property="og:site_name" content="Spread" />
+			<link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/images/favicon.png">
 		    <link href="<?php bloginfo('template_directory'); ?>/css/owl.carousel.css" rel="stylesheet"/>
 		    <link href="<?php bloginfo('template_directory'); ?>/css/owl.theme.default.css" rel="stylesheet"/>
 		    <link href="<?php bloginfo('template_directory'); ?>/css/base.css" rel="stylesheet"/>
@@ -77,6 +89,9 @@ $title = get_the_title();
 	                        <a target="_blank" href="https://www.linkedin.com/company/spread-pr-marketing-sales/">
 	                            <img src="<?php bloginfo('template_directory'); ?>/images/header-logos/linkedin.png" alt="linkedin-icon" title="linkedin">
 	                        </a>
+							<a target="_blank" href="https://www.tiktok.com/@spreadpr">
+                            	<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/tik-tok.png" alt="TikTok-icon" title="Tik Tok">
+                        	</a>
 	                    </div>
 	                </div>
 	        
@@ -109,5 +124,6 @@ $title = get_the_title();
 		                	<?php } ?>
 	                    </ul>
 	                </nav>
+
 	            </div>
 	        </header>

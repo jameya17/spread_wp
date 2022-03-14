@@ -14,6 +14,11 @@ get_header();
 
         <div class="container">
             <div class="content">
+                <div class="l-subsection">
+                   <div class="l-subsection-h pad-t-0 pad-b-0 pos-rel flex-align-right">
+                    <select onchange="doGTranslate(this);" class="notranslate lang-selector" id="gtranslate_selector" aria-label="Website Language Selector"><option value="">Select Language</option><option value="en|en">English</option><option value="en|de">German</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
+                   </div> 
+                </div>
                 <section class="content-box" data-anchor="home" id="home">
                     <div class="l-subsection">
                         <div class="l-subsection-h">
@@ -34,7 +39,7 @@ get_header();
                 <section class="content-box"  id="about-us">
                     <div class="l-subsection">
                         <div class="l-subsection-h pad-t-0 pad-b-0 about-us">
-                            <div class="g-cols offset_default green-bg">
+                            <div class="g-cols offset_default green-bg flex-align-center">
                                 <div class="one-half">
                                     <div class="about-us-img">
                                         <img class="block" src="<?php bloginfo('template_directory'); ?>/images/about-us.png" />
@@ -91,7 +96,7 @@ get_header();
                     <section class="l-subsection popup" id="PR" style="display: none;">
                         <div class="popup-body">
                             <div class="l-col">
-                                <span><img src="<?php bloginfo('template_directory'); ?>/images/pr-img.png" alt="PR" title="PR"></span>
+                                <span class="popup-img pr-bg"></span>
                             </div>
                             <div class="r-col">
                                 <div class="r-col-pad">
@@ -118,7 +123,7 @@ get_header();
                     <section class="l-subsection popup" id="marketing" style="display: none;">
                         <div class="popup-body">
                             <div class="l-col">
-                                <span><img src="<?php bloginfo('template_directory'); ?>/images/marketing-img.png" alt="Marketing" title="Marketing"></span>
+                                <span class="popup-img marketing-bg"></span>
                             </div>
                             <div class="r-col">
                                 <div class="r-col-pad">
@@ -146,7 +151,7 @@ get_header();
                      <section class="l-subsection popup" id="consulting" style="display: none;">
                         <div class="popup-body">
                             <div class="l-col">
-                                <span><img src="<?php bloginfo('template_directory'); ?>/images/consulting-img.png" alt="Consulting" title="Consulting"></span>
+                            <span class="popup-img consulting-bg"></span>
                             </div>
                             <div class="r-col">
                                 <div class="r-col-pad">
@@ -167,7 +172,7 @@ get_header();
                     
                     <div class="l-subsection">
                         <div class="l-subsection-h full-width pad-t-0">
-                            <div class="g-cols offset_default">
+                            <div class="g-cols offset_default bdr-bt">
                                 <div class="one-half flex-align-right flex-align-center">
                                     <div class="col-info">
                                         <h6>Our Clients</h6>
@@ -284,7 +289,8 @@ get_header();
                                     <section class="l-subsection popup" id="<?php echo $popuplink; ?>-popup" style="display: none;"  >
                                         <div class="popup-body">
                                             <div class="l-col">
-                                                <span><img src="<?php the_field('team_pop_up_image'); ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>"></span>
+                                                <span style="background-image:url'<?php the_field('team_pop_up_image'); ?>'" title="<?php the_title(); ?>">
+                                                </span>
                                             </div>
                                             <div class="r-col">
                                                 <div class="r-col-pad">

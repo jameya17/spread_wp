@@ -32,13 +32,13 @@
             }
             &:last-child{margin-right: 0;}
             a{
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 400;
                 line-height: 24px;
                 letter-spacing: 0em;
                 color:$green-col;
                 font-family: 'Playfair Display', sans-serif;
-                padding: 10px 25px;
+                padding: 10px 15px;
                 @media only screen and (max-width: 1024px){
                     padding: 15px 20px;
                     color: #7d7b7b;
@@ -71,6 +71,7 @@
                 background-color: #0C4D43;
                 color: #fff;
                 border-radius: 25px;
+                padding: 8px 25px;
                 @media only screen and (max-width: 1024px){
                     border-radius: 0;
                 }
@@ -132,7 +133,7 @@
             display: block;
             position: absolute;
             top: 50%;
-            right: 0;
+            right: -20px;
             left: 0;
             background: $green-col;
             -webkit-transition: -webkit-transform 0.2s ease;
