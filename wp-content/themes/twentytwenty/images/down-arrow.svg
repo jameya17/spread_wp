@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <g id="button" transform="translate(-135 -873)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(135 873)" fill="none" stroke="#999" stroke-linejoin="round" stroke-width="2">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="18.5" fill="none"/>
+    </g>
+    <path id="Shape_2" data-name="Shape 2" d="M153.5,896.5l-.207.207-7-7,1.414-1.415,6.793,6.793,6.793-6.793,1.415,1.415-8,8Z" fill="#999"/>
+  </g>
+</svg>
