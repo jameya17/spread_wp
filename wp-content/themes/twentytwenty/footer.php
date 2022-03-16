@@ -172,13 +172,13 @@ $title = get_the_title();
 	                </div>
 	                <div class="footer-links">
 	                    <a href="<?php the_permalink(104); ?>">Legal Notice </a>
-	                    <a href="/gtcs">GTCS </a>
+	                    <a href="<?php the_permalink(109); ?>">GTCS </a>
 	                    <a href="<?php the_permalink(107); ?>">Data Privacy</a>
 	                </div>
 	            </div>
 	        </div>
 
-			<div id="cookie-notice" class="cookie-sticky">
+			<div id="cookie-notice" class="cookie-sticky" <?php if(isset($_COOKIE['noticeCookie'])){ ?>style="display:none;"<?php } ?>>
 				<div class="wrap">
 					<div class="cookie-text">
 						<span>We use cookies to improve, promote and protect our offer. By continuing to use the website, you agree to our privacy policy.</span>
@@ -186,7 +186,7 @@ $title = get_the_title();
 					
 					<div class="cookie-btn-panel">
 						<a href="javascript:void(0);" id="setCookie">OK</a>
-						<a href="">privacy</a>
+						<a href="<?php the_permalink(107); ?>">privacy</a>
 					</div>
 			
 					<a href="javascript:void(0);" id="closeCookie" class="cookie-close-icon"></a>
@@ -205,6 +205,25 @@ $title = get_the_title();
 	       
 
 	        $(document).ready(function(){
+
+	        	$("#closeCookie").click(function(){
+	                $("#cookie-notice").hide();
+	                return false;
+	            });
+
+	            $("#setCookie").click(function(){
+	                $.ajax({
+	                    type : "post",
+	                    url : "form-submit.php",
+	                    data : {"setCookie":"true"},
+	                    success: function(response){
+	                        $("#cookie-notice").hide();
+	                        return false;
+	                    }
+	                });
+	                return false;
+	            });
+
 	        // Add smooth scrolling to all links
 		        $("a").on('click', function(event) {
 
@@ -566,6 +585,28 @@ $title = get_the_title();
 		                return false;
 		            }
 		        });
+
+		       	$(document).ready(function(){
+
+		        	$("#closeCookie").click(function(){
+		                $("#cookie-notice").hide();
+		                return false;
+		            });
+		        });
+		        
+		        $("#setCookie").click(function(){
+	                $.ajax({
+	                    type : "post",
+	                    url : "form-submit.php",
+	                    data : {"setCookie":"true"},
+	                    success: function(response){
+	                        $("#cookie-notice").hide();
+	                        return false;
+	                    }
+	                });
+	                return false;
+	            });	
+
 		    </script>
 
 		<?php } ?>
