@@ -289,7 +289,7 @@ get_header();
                                     <section class="l-subsection popup" id="<?php echo $popuplink; ?>-popup" style="display: none;"  >
                                         <div class="popup-body">
                                             <div class="l-col">
-                                                <span style="background-image:url'<?php the_field('team_pop_up_image'); ?>'" title="<?php the_title(); ?>">
+                                                <span style="background-image:url('<?php the_field('team_pop_up_image'); ?>')" title="<?php the_title(); ?>">
                                                 </span>
                                             </div>
                                             <div class="r-col">
