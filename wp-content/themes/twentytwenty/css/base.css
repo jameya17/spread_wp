@@ -2871,7 +2871,8 @@ body.popup-open {
   text-align: center;
   font-weight: 400; }
   .cookie-sticky .cookie-text {
-    color: #fff; }
+    color: #fff;
+    text-align: left; }
     @media only screen and (max-width: 1024px) {
       .cookie-sticky .cookie-text {
         text-align: left;
@@ -2879,7 +2880,8 @@ body.popup-open {
   .cookie-sticky .wrap, .cookie-sticky .header-pad, .cookie-sticky .l-subsection-h {
     display: flex;
     padding: 20px 35px;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     @media only screen and (max-width: 1024px) {
       .cookie-sticky .wrap, .cookie-sticky .header-pad, .cookie-sticky .l-subsection-h {
         display: block;
@@ -2900,28 +2902,33 @@ body.popup-open {
       content: ' ';
       height: 15px;
       width: 2px;
-      background-color: #fff; }
+      background-color: #fff;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
     .cookie-sticky .cookie-close-icon:before {
       transform: rotate(45deg); }
     .cookie-sticky .cookie-close-icon:after {
       transform: rotate(-45deg); }
-  @media only screen and (max-width: 1024px) {
-    .cookie-sticky .cookie-btn-panel {
-      display: flex; } }
-  .cookie-sticky .cookie-btn-panel a {
-    color: #fff;
-    background-color: #0c4d43;
-    padding: 5px 10px;
-    font-size: 13px;
-    line-height: 20px;
-    letter-spacing: .25px;
-    font-weight: 400;
-    transition: all 0.5s;
-    border-radius: 3px; }
-    .cookie-sticky .cookie-btn-panel a:hover {
-      opacity: .7; }
-    .cookie-sticky .cookie-btn-panel a:first-child {
-      margin-right: 10px; }
+  .cookie-sticky .cookie-btn-panel {
+    width: 250px; }
+    @media only screen and (max-width: 1024px) {
+      .cookie-sticky .cookie-btn-panel {
+        display: flex; } }
+    .cookie-sticky .cookie-btn-panel a {
+      color: #fff;
+      background-color: #0c4d43;
+      padding: 5px 10px;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: .25px;
+      font-weight: 400;
+      transition: all 0.5s;
+      border-radius: 3px; }
+      .cookie-sticky .cookie-btn-panel a:hover {
+        opacity: .7; }
+      .cookie-sticky .cookie-btn-panel a:first-child {
+        margin-right: 10px; }
 
 .lang-selector {
   font-size: 16px;

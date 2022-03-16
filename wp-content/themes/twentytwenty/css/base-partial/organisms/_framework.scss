@@ -955,6 +955,7 @@ body{
     font-weight: 400;
     .cookie-text{
         color: #fff;
+        text-align: left;
         @media only screen and (max-width: 1024px){
             text-align: left;
             margin-bottom: 10px;
@@ -964,6 +965,7 @@ body{
         display: flex;
         padding: 20px 35px;
         justify-content: space-between;
+        align-items: center;
         @media only screen and (max-width: 1024px){
             display: block;
             padding: 20px;
@@ -986,6 +988,9 @@ body{
             height: 15px;
             width: 2px;
             background-color: #fff;
+            top: 0;
+            bottom: 0;
+            margin: auto;
         }
         &:before{
             transform: rotate(45deg);
@@ -995,6 +1000,7 @@ body{
         }
     }
     .cookie-btn-panel{
+        width: 250px;
         @media only screen and (max-width: 1024px){
             display: flex;
         }
