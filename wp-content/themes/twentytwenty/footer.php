@@ -130,10 +130,10 @@ $title = get_the_title();
 	                            </div>
 	                            <div class="g-cols offset_default links-col-list">
 	                                <div class="one-half links-col">
-	                                    <h2 class="link-head">Laura Joy Kernetzky</h2>
+	                                    <h2 class="link-head">Laura Kernetzky</h2>
 	                                    <div class="person-contact">
 	                                        <span>PR Assistant & Junior Consultant</span>
-	                                        <a href="mailto:cs@spread-vienna.com">lk@spread-vienna.com</a>
+	                                        <a href="mailto:lk@spread-vienna.com">lk@spread-vienna.com</a>
 	                                        <a href="tel:+43 660 4970931">+43 660 555 2573</a>
 	                                    </div>
 	                                </div>

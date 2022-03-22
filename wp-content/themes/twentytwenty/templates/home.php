@@ -178,7 +178,6 @@ get_header();
                                         <h6>Our Clients</h6>
                                         <h2>We are a modern PR agency that provides individual services to all customers</h2>
                                         <p>From mid-sized businesses to higher education institutions to international corporations, we work with organizations striving to stand out and connect. Their goals and audiences are unique, but our clients all share one common ingredient: they understand the power of research, strategy, and creative when it comes to building authentic brands and compelling marketing experiences.</p>
-                                        <a href="<?php the_permalink(8); ?>" class="text-link">View All</a>
                                     </div>    
                                 </div>
 
@@ -218,6 +217,9 @@ get_header();
                                 endwhile;
                             ?>
                                 
+                            </div>
+                            <div class="flex-center">
+                                <a href="<?php the_permalink(8); ?>" class="text-link">View All</a>
                             </div>
                         </div>
                     </div>

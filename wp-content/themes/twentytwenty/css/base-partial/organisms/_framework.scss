@@ -672,8 +672,12 @@ body{
     border-radius: 16px;
     z-index: 9999;
     max-height: calc(100vh - 100px);
+    
     @media only screen and (max-width: 1024px){
         width: 89%;
+    }
+    @media only screen and (min-width: 1300px){
+        max-height: 700px;
     }
     
     .popup-img{
@@ -803,6 +807,7 @@ body{
         .l-col{
             width: 450px;
             height: 100%;
+            background-repeat: no-repeat;
             @media only screen and (max-width: 1024px){
                 width: unset;
                 display: none;
