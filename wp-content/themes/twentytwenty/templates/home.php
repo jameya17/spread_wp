@@ -208,7 +208,7 @@ get_header();
                                 while ( $the_query->have_posts() ) : $the_query->the_post();
                             ?>
                                     <div class="client-item">
-                                       <a href="javascript:void();">
+                                       <a href="javascript:void();" target="_blank">
                                         <img src="<?php the_field('client_logo'); ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" />
                                        </a>
                                     </div>
