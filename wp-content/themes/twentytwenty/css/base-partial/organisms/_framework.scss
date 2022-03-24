@@ -360,6 +360,7 @@ body{
 
 .team-item{
     @media only screen and (max-width: 1024px){
+        width: 200px;
        img{
         width: 200px !important;
         margin: 0 auto;
@@ -672,7 +673,7 @@ body{
     border-radius: 16px;
     z-index: 9999;
     max-height: calc(100vh - 100px);
-    
+
     @media only screen and (max-width: 1024px){
         width: 89%;
     }

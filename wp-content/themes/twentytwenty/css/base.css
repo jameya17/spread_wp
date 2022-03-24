@@ -389,15 +389,6 @@ optgroup {
 html {
   scroll-behavior: smooth; }
 
-*::-webkit-scrollbar {
-  display: none; }
-
-* {
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */ }
-
 .g-cols:before,
 .g-cols:after {
   display: table;
@@ -2410,9 +2401,11 @@ body.popup-open {
         display: none; } }
 
 @media only screen and (max-width: 1024px) {
-  .team-item img {
-    width: 200px !important;
-    margin: 0 auto; } }
+  .team-item {
+    width: 200px; }
+    .team-item img {
+      width: 200px !important;
+      margin: 0 auto; } }
 
 @media only screen and (max-width: 1024px) {
   .team-wrapper {

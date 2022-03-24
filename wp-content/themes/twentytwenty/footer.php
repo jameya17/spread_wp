@@ -122,7 +122,6 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Katharina Dulberg</h2>
 	                                    <div class="person-contact">
 	                                        <span>Senior Consultant Events & Project PR</span>
-	                                        <span>kd@spread-vienna.com</span>
 	                                        <a href="mailto:kd@spread-vienna.com">kd@spread-vienna.com</a>
 	                                        <a href="tel:+43 664 166 5020">+43 664 166 5020</a>
 	                                    </div>
@@ -142,7 +141,6 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Sara Demir</h2>
 	                                    <div class="person-contact">
 	                                        <span>PR Assistant</span>
-	                                        <span>sd@spread-vienna.com</span>
 	                                        <a href="mailto:sd@spread-vienna.com">sd@spread-vienna.com</a>
 	                                        <a href="tel:+43 676 979 8295">+43 676 979 8295</a>
 	                                    </div>
@@ -407,17 +405,19 @@ $title = get_the_title();
 	            });
 
 	            jQuery('.link-head').click(function(e) {
-	                e.preventDefault();
-	                var jQuerythis = jQuery(this);
-	                if (jQuerythis.next().hasClass('show')) {
-	                    jQuerythis.next().removeClass('show');
-	                    jQuerythis.next().slideUp(350);
-	                } else {
-	                    jQuerythis.parent().parent().find('.link-list').removeClass('show');
-	                    jQuerythis.parent().parent().find('.link-list').slideUp(350);
-	                    jQuerythis.next().toggleClass('show');
-	                    jQuerythis.next().slideToggle(350);
-	                }
+					if(jQuery(window).width() <= 1024){
+						e.preventDefault();
+						var jQuerythis = jQuery(this);
+						if (jQuerythis.next().hasClass('show')) {
+							jQuerythis.next().removeClass('show');
+							jQuerythis.next().slideUp(350);
+						} else {
+							jQuerythis.parent().parent().find('.link-list').removeClass('show');
+							jQuerythis.parent().parent().find('.link-list').slideUp(350);
+							jQuerythis.next().toggleClass('show');
+							jQuerythis.next().slideToggle(350);
+						}
+					}
 	            });
 	        });
 
