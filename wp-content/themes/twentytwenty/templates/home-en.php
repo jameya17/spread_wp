@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: HomePage Template
+ * Template Name: HomePage English Template
  *
  *
  * @package WordPress
@@ -16,7 +16,7 @@ get_header();
             <div class="content">
                 <div class="l-subsection">
                    <div class="l-subsection-h pad-t-0 pad-b-0 pos-rel flex-align-right">
-                    <select onchange="changeLanguage(this);" class="notranslate lang-selector" id="gtranslate_selector" aria-label="Website Language Selector"><option value="de" selected>German</option><option value="en">English</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
+                    <select onchange="doGTranslate(this);" class="notranslate lang-selector" id="gtranslate_selector" aria-label="Website Language Selector"><option value="">Select Language</option><option value="en|en">English</option><option value="en|de">German</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
                    </div> 
                 </div>
                 <section class="content-box" data-anchor="home" id="home">
@@ -28,7 +28,7 @@ get_header();
                                         <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo-big.png" />
                                     </div>
                                     <div class="intro-content">
-                                        <p>Wir haben keine Kunden. Wir haben Partner! Menschen, die uns vertrauen. Menschen, mit denen wir gerne zusammenarbeiten. Für sie sind wir da. Als Team, das eine Sprache spricht. Respekt vor der Aufgabe. Mut zu neuen Wegen. Kraft in der Kommunikation. Wir begleiten unsere Partner professionell und mit Herz durch die Welt der Medien- und Öffentlichkeitsarbeit. Das ist, was uns ausmacht.</p>
+                                        <p>We don't have customers. We have partners! People who trust us. People whom we like to cooperate with. We are here for them. As a team that speaks one language. Respect for the task. Courage to break new ground. Power in communication. With heart and expertise, we guide our partners through the world of media and public relations. That's what identifies us.</p>
                                     </div>
                                 </div>
                             </div>
@@ -49,8 +49,8 @@ get_header();
                                 <div class="one-half">
                                     <div class="sec-info about-us-info">
                                         <h6>About Us</h6>
-                                        <h2>SPREAD hat Know How. <br/>SPREAD hat Esprit. <br/>SPREAD hat Charakter.</h2>
-                                        <p>Wir unterscheiden nicht zwischen kleinen und großen Aufträgen. Unser Wissen stellen wir allen gleichermaßen zur Verfügung. Vom Kleinunternehmen bis zum Weltkonzern. Nationale und internationale Unternehmen unterstützen wir in Deutschland, Österreich und der Schweiz. Interdisziplinär denken. Multidimensional planen. Flexibel umsetzen.</p>
+                                        <h2>SPREAD has know-how. <br/>SPREAD has esprit. <br/>SPREAD has character.</h2>
+                                        <p>To us, it makes no difference whether an order is small or large. We share our knowledge equally with all. Whether a small business or a global company. We support national and international enterprises in Germany, Austria and Switzerland. Interdisciplinary thinking. Multidimensional action. Flexible implementation.</p>
                                     </div>    
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ get_header();
                             <div class="intro-col mar-b-40">
                                 <h6>Core Services</h6>
                                 <h2>We can bundle disciplines to offer our customers all services from a single source</h2>
-                                <p>Wir vernetzen, das bedeutet Synergien und individuellen Service für unsere Partner. Neben klassischer PR stimmen wir alle Instrumente moderner Kommunikation aufeinander ab. Der große Vorteil ist, dass wir die Disziplinen bündeln können und so Kunden alle Leistungen aus einer Hand bekommen.</p>
+                                <p>We network to generate synergies and individual services for our partners. Apart from classical PR, we bring all instruments of modern communication in tune with each other like Marketing, Blogger Relations, Social Media Management, Consulting and Event Management</p>
                             </div>
                             <div class="g-cols offset_none services-list">
                                
@@ -102,16 +102,16 @@ get_header();
                                 <div class="r-col-pad">
                                     <div class="popup-head">
                                         <h2>PR</h2>
-                                        <p>Wir stellen uns auf unsere Kunden und Partner ein. Wir zwängen ihnen kein Schema auf. Gute PR funktioniert nicht nach dem Gießkannenprinzip, sondern mit Verstand, Einfühlungsvermögen und bester Vernetzung in die Medienwelt. Zuhören, auf Bedürfnisse eingehen, flexibel agieren, Kontakte nutzen. Die Kommunikationsstrategien erarbeiten wir mit Ihnen schnell und individuell. Wissen, Kreativität und Trendgespür sind die Säulen einer erfolgreichen und bereichernden Partnerschaft. Die Mischung macht den Masterplan.</p>
+                                        <p>We tune in to our customers and partners. We do not impose a pattern on them. Good PR does not work according to a shotgun approach but with brains, sensitivity and best networking in the media world. Listening, addressing needs, acting flexibly, using contacts. We work out the communication strategies together with you, quickly and individually. Knowledge, creativity and intuition for trends are the pillars of successful and rewarding partnership. The mixture makes the master plan.</p>
                                     </div>
                                     <div class="list-block">
-                                        <h2>Unsere Kompetenzen</h2>
+                                        <h2>Our competences</h2>
                                         <ul class="competence-list">
-                                            <li>Influencerrelations und Mediaevents </li>
-                                            <li>Recherche von Themenumfeldern sowie Lobbying und Networking</li>
-                                            <li>Erstellen detaillierter PR-Strategien und Pressetexte</li>
-                                            <li>Digitaler Pressroom und Showroom in der Agentur</li>
-                                            <li>Nachbearbeitung und Platzierung von Meldungen und Inhalten</li>
+                                            <li>Influencer relations and media events </li>
+                                            <li>Investigation of topic areas and lobbying and networking</li>
+                                            <li>Drawing up of detailed PR strategies and press releases</li>
+                                            <li>Digital pressroom and showroom at the agency</li>
+                                            <li>Post-processing and placement of messages and contents</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -129,17 +129,17 @@ get_header();
                                 <div class="r-col-pad">
                                     <div class="popup-head">
                                         <h2>Marketing</h2>
-                                        <p>Markenbildung ist nicht nur auf Medien beschränkt. Wir haben die Kompetenz, Ihren ganzheitlichen Auftritt zu entwickeln oder mit kreativen Ansätzen zu bereichern. Auch weil wir Kleinunternehmen und Weltkonzerne gleichsam betreuen, bietet sich hier eine neue Qualität der Zusammenarbeit. Wir nennen es die Kunst der Vernetzung.</p>
+                                        <p>Branding is not limited to the media. We have the competence to develop your holistic brand identity or to enrich it with creative approaches. A new quality of cooperation also results from the fact that we serve small businesses and global companies alike. We call this the art of networking.</p>
                                     </div>
                                     <div class="list-block">
-                                        <h2>Unsere Kompetenzen</h2>
+                                        <h2>Our competences</h2>
                                         <ul class="competence-list">
-                                            <li>Konzeption maßgeschneiderter Marketingstrategien</li>
-                                            <li>Begleitung bei Markteinführung und Branding</li>
-                                            <li>Erstellung von Drucksorten und Promotionsmaterial</li>
-                                            <li>Eventkonzeption-, Organisation und -Betreuung</li>
-                                            <li>Kooperationsmanagement und Umsetzung individueller Marketingaktionen</li>
-                                            <li>Synergien unter Geschäftspartnern schaffen</li>
+                                            <li>Conceptual design of tailor-made marketing strategies</li>
+                                            <li>Support during market launch and branding</li>
+                                            <li>Preparation of forms and promotion materials</li>
+                                            <li>Concepts for and organisation and support of events</li>
+                                            <li>Cooperation management and implementation of individual marketing campaigns</li>
+                                            <li>Generation of synergies between business partners</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -157,8 +157,9 @@ get_header();
                                 <div class="r-col-pad">
                                     <div class="popup-head">
                                         <h2>Consulting</h2>
-                                        <p>NeugründerInnen oder Kleinunternehmen ist es oft nicht möglich, auf eine dauerhafte Betreuung durch eine Agentur zurückzugreifen. Trotzdem ist ein Gesamtkonzept für den öffentlichen Auftritt heutzutage unumgänglich. Genau hier kommen wir ins Spiel.</p>
-                                        <p>In Gruppen-PR-Workshops oder bei Individualterminen beraten wir Sie darüber, was bei den so wichtigen ersten Schritten alles zu beachten ist. Cornelia Steidl ist auch Mitglied des Beraterpools der Wirtschaftskammer Wien. <a href="https://www.wko.at/service/w/unternehmensfuehrung-finanzierung-foerderung/Gefoerderte_Unternehmensberatung.html?gclid=CjwKCAjw1ZbaBRBUEiwA4VQCIcHkP_vm0BHCEBzU5CHKUnuUwRCxIp04nSOU8x7YeIC_Gzpr9xRZnhoCgXcQAvD_BwE&dclid=CPqL4_CWl9wCFcqlUQodwm4BUw" target="_blank">Hier</a> geht’s zur geförderten Beratung.</p>
+                                        <p>Start-ups and small businesses can often not rely on the continuous assistance of an agency. Nevertheless, an overall concept is absolutely essential to your public presence today. This is exactly where we come into play.</p>
+                                        <p>In group PR workshops or individual meetings, we explain all things that have to be considered for making the first steps that are so important. 
+                                            Cornelia Steidl also is a member of the Vienna Economic Chamber's pool of consultants. Click here for the sponsored consulting.</p>
                                     </div>
                                 </div>
                             </div>
