@@ -73,7 +73,14 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Cornelia Steidl</h2>
 	                                    <div class="person-contact">
-	                                        <span>Inhaber & Managing Director</span>
+	                                    	<?php
+	                                    	  $text = "Inhaber & Managing Director";
+	                                    	  if(LANGUAGE == "en"){
+	                                    	  	$text = "Owner & Managing Director";
+	                                    	  }
+
+	                                    	?>
+	                                        <span><?php echo $text; ?></span>
 	                                        <a href="mailto:cs@spread-vienna.com">cs@spread-vienna.com</a>
 	                                        <a href="tel:+43 660 4970931">+43 660 4970931</a>
 	                                    </div>
@@ -82,7 +89,14 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Kristina Kirova</h2>
 	                                    <div class="person-contact">
-	                                        <span>Agenturleitung</span>
+	                                    	<?php
+	                                    	  $text = "Agenturleitung";
+	                                    	  if(LANGUAGE == "en"){
+	                                    	  	$text = "Head of Agency";
+	                                    	  }
+
+	                                    	?>
+	                                        <span><?php echo $text; ?></span>
 	                                        <span>Senior Consultant & Head of Media & Blogger Relations</span>
 	                                        <a href="mailto:kk@spread-vienna.com ">kk@spread-vienna.com</a>
 	                                        <a href="tel:++43 660 8648118">+43 660 8648118</a>
@@ -93,7 +107,14 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Bianca Wietzke</h2>
 	                                    <div class="person-contact">
-	                                        <span>Senior Consultant & Projektmanagement</span>
+	                                    	<?php
+	                                    	  $text = "Senior Consultant & Projektmanagement";
+	                                    	  if(LANGUAGE == "en"){
+	                                    	  	$text = "Senior Consultant & Project Management";
+	                                    	  }
+
+	                                    	?>
+	                                        <span><?php echo $text; ?></span>
 	                                        <a href="mailto:bw@spread-vienna.com ">bw@spread-vienna.com</a>
 	                                        <a href="tel:+43 676 770 42 30">+43 676 770 42 30</a>
 	                                    </div>
@@ -121,7 +142,14 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Katharina Dulberg</h2>
 	                                    <div class="person-contact">
-	                                        <span>Senior Consultant Events & Projekt PR</span>
+	                                    	<?php
+	                                    	  $text = "Senior Consultant Events & Projekt PR";
+	                                    	  if(LANGUAGE == "en"){
+	                                    	  	$text = "Senior Consultant Events & Project PR";
+	                                    	  }
+
+	                                    	?>
+	                                        <span><?php echo $text; ?></span>
 	                                        <a href="mailto:kd@spread-vienna.com">kd@spread-vienna.com</a>
 	                                        <a href="tel:+43 664 166 5020">+43 664 166 5020</a>
 	                                    </div>
@@ -201,10 +229,14 @@ $title = get_the_title();
 
          	function changeLanguage(){
          		var language = $('#gtranslate_selector').val();
+
          		if(language == 'en'){
          			var url = window.location.href;
          			url = url+"/en/home";
          			window.location.href = url;
+         		}
+         		else{
+         			window.location.href = "/";
          		}
          	}
 
@@ -415,19 +447,17 @@ $title = get_the_title();
 	            });
 
 	            jQuery('.link-head').click(function(e) {
-					if(jQuery(window).width() <= 1024){
-						e.preventDefault();
-						var jQuerythis = jQuery(this);
-						if (jQuerythis.next().hasClass('show')) {
-							jQuerythis.next().removeClass('show');
-							jQuerythis.next().slideUp(350);
-						} else {
-							jQuerythis.parent().parent().find('.link-list').removeClass('show');
-							jQuerythis.parent().parent().find('.link-list').slideUp(350);
-							jQuerythis.next().toggleClass('show');
-							jQuerythis.next().slideToggle(350);
-						}
-					}
+	                e.preventDefault();
+	                var jQuerythis = jQuery(this);
+	                if (jQuerythis.next().hasClass('show')) {
+	                    jQuerythis.next().removeClass('show');
+	                    jQuerythis.next().slideUp(350);
+	                } else {
+	                    jQuerythis.parent().parent().find('.link-list').removeClass('show');
+	                    jQuerythis.parent().parent().find('.link-list').slideUp(350);
+	                    jQuerythis.next().toggleClass('show');
+	                    jQuerythis.next().slideToggle(350);
+	                }
 	            });
 	        });
 

@@ -8,8 +8,8 @@
  * @since 1.0.0
  */
 
+define("LANGUAGE", "de");
 get_header();
-
 ?>        
 
         <div class="container">

@@ -8,15 +8,15 @@
  * @since 1.0.0
  */
 
+define("LANGUAGE", "en");
 get_header();
-
 ?>        
 
         <div class="container">
             <div class="content">
                 <div class="l-subsection">
                    <div class="l-subsection-h pad-t-0 pad-b-0 pos-rel flex-align-right">
-                    <select onchange="doGTranslate(this);" class="notranslate lang-selector" id="gtranslate_selector" aria-label="Website Language Selector"><option value="">Select Language</option><option value="en|en">English</option><option value="en|de">German</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
+                    <select onchange="changeLanguage(this);" class="notranslate lang-selector" id="gtranslate_selector" aria-label="Website Language Selector"><option value="de">German</option><option value="en" selected>English</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
                    </div> 
                 </div>
                 <section class="content-box" data-anchor="home" id="home">
@@ -272,7 +272,7 @@ get_header();
 
                                         <div class="col-info">
                                             <h2><?php the_title(); ?></h2>
-                                            <?php the_field('team_short_description'); ?>
+                                            <?php the_field('team_short_description_english'); ?>
                                             <a data-fancybox data-src="#<?php echo $popuplink; ?>-popup"   class="text-link" >Read More</a>
                                         </div>    
 
@@ -298,7 +298,7 @@ get_header();
                                                 <div class="r-col-pad">
                                                     <div class="popup-head">
                                                         <h2><?php the_title(); ?></h2>
-                                                        <?php the_field('team_long_description'); ?>
+                                                        <?php the_field('team_long_description_english'); ?>
                                                     </div>
                                                 </div>
                                             </div>

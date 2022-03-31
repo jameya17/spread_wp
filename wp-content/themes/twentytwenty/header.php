@@ -72,7 +72,14 @@ $title = get_the_title();
 	            <div class="header-pad">
 	                <div class="logo-wrap">
 	                    <div class="header-logo">
-	                        <a class="logo" href="<?php echo home_url(); ?>">
+	                    	<?php
+                        	  $href = home_url();
+                        	  if(LANGUAGE == "en"){
+                        	  	$href = get_the_permalink(120);
+                        	  }
+
+                        	?>
+	                        <a class="logo" href="<?php echo $href; ?>">
 	                            <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Greenweeks Logo" title="Greenweeks Logo">
 	                        </a>
 	                    </div>
