@@ -415,17 +415,19 @@ $title = get_the_title();
 	            });
 
 	            jQuery('.link-head').click(function(e) {
-	                e.preventDefault();
-	                var jQuerythis = jQuery(this);
-	                if (jQuerythis.next().hasClass('show')) {
-	                    jQuerythis.next().removeClass('show');
-	                    jQuerythis.next().slideUp(350);
-	                } else {
-	                    jQuerythis.parent().parent().find('.link-list').removeClass('show');
-	                    jQuerythis.parent().parent().find('.link-list').slideUp(350);
-	                    jQuerythis.next().toggleClass('show');
-	                    jQuerythis.next().slideToggle(350);
-	                }
+					if(jQuery(window).width() <= 1024){
+						e.preventDefault();
+						var jQuerythis = jQuery(this);
+						if (jQuerythis.next().hasClass('show')) {
+							jQuerythis.next().removeClass('show');
+							jQuerythis.next().slideUp(350);
+						} else {
+							jQuerythis.parent().parent().find('.link-list').removeClass('show');
+							jQuerythis.parent().parent().find('.link-list').slideUp(350);
+							jQuerythis.next().toggleClass('show');
+							jQuerythis.next().slideToggle(350);
+						}
+					}
 	            });
 	        });
 
