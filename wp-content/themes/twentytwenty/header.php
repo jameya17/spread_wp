@@ -70,67 +70,77 @@ $title = get_the_title();
 
 			<header class="header">
 	            <div class="header-pad">
-	                <div class="logo-wrap">
-	                    <div class="header-logo">
-	                    	<?php
-                        	  $href = home_url();
-                        	  if(LANGUAGE == "en"){
-                        	  	$href = get_the_permalink(120);
-                        	  }
+					<div class="top-links">
+						<ul>
+							<li><a class="active" href="">De</a></li>
+							<li><a href="">En</a></li>
+						</ul>
+					</div>
+					<div class="head-links">
+						<div class="logo-wrap">
+							<div class="header-logo">
+								<?php
+								$href = home_url();
+								if(LANGUAGE == "en"){
+									$href = get_the_permalink(120);
+								}
 
-                        	?>
-	                        <a class="logo" href="<?php echo $href; ?>">
-	                            <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Greenweeks Logo" title="Greenweeks Logo">
-	                        </a>
-	                    </div>
-	                    <div class="social-media">
-	                        <a target="_blank"  href="https://www.instagram.com/spreadpr/">
-	                            <img src="<?php bloginfo('template_directory'); ?>/images/header-logos/instagram.png" alt="instagram-icon" title="Instagram">
-	                        </a>
-	                        <a target="_blank" href="https://twitter.com/spreadpr">
-	                            <img src="<?php bloginfo('template_directory'); ?>/images/header-logos/twitter.png" alt="twitter-icon" title="twitter">
-	                        </a>
-	                        <a target="_blank" href="https://www.facebook.com/SPREADPR/">
-	                            <img src="<?php bloginfo('template_directory'); ?>/images/header-logos/facebook.png" alt="facebook-icon" title="facebook">
-	                        </a>
-	                        <a target="_blank" href="https://www.linkedin.com/company/spread-pr-marketing-sales/">
-	                            <img src="<?php bloginfo('template_directory'); ?>/images/header-logos/linkedin.png" alt="linkedin-icon" title="linkedin">
-	                        </a>
-							<a target="_blank" href="https://www.tiktok.com/@spreadpr">
-                            	<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/tik-tok.png" alt="TikTok-icon" title="Tik Tok">
-                        	</a>
-	                    </div>
-	                </div>
-	        
-	                <div class="icon-burger">
-	                    <span class="burger-patty"></span>
-	                    <span class="burger-patty"></span>
-	                    <span class="burger-patty"></span>
-	                </div>
-	        
-	                <nav class="sticky-nav-tabs">
-	                    <ul class="sticky-nav-tabs-container" id="top-menu">
-	                    	<?php
-								if($title == "Home"){
-							?>
-		                        <li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
-		                        <li><a href="#about-us" class="sticky-nav-tab">About</a></li>
-		                        <li><a href="#core-services" class="sticky-nav-tab" >Services</a></li>
-		                        <li><a href="#our-clients" class="sticky-nav-tab" >Clients</a></li>
-		                        <li><a href="#our-team" class="sticky-nav-tab" >Team</a></li>
-		                        <li><a href="#contact" class="sticky-nav-tab" >Contact</a></li>
-		                        <li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
-		                    <?php } else { ?>
-		                    	<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
-		                        <li><a href="<?php echo home_url(); ?>/?id=about-us" class="sticky-nav-tab">About</a></li>
-		                        <li><a href="<?php echo home_url(); ?>/?id=core-services" class="sticky-nav-tab" >Services</a></li>
-		                        <li <?php if($title == "Clients"){ ?> class="active" <?php } ?>><a href="<?php echo home_url(); ?>/?id=our-clients" class="sticky-nav-tab" >Clients</a></li>
-		                        <li><a href="<?php echo home_url(); ?>/?id=our-team" class="sticky-nav-tab" >Team</a></li>
-		                        <li><a href="<?php echo home_url(); ?>/?id=contact" class="sticky-nav-tab" >Contact</a></li>
-		                        <li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
-		                	<?php } ?>
-	                    </ul>
-	                </nav>
+								?>
+								<a class="logo" href="<?php echo $href; ?>">
+									<img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Greenweeks Logo" title="Greenweeks Logo">
+								</a>
+							</div>
+							<div class="social-media">
+								<a target="_blank"  href="https://www.instagram.com/spreadpr/">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/instagram.png" alt="instagram-icon" title="Instagram">
+								</a>
+								<a target="_blank" href="https://twitter.com/spreadpr">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/twitter.png" alt="twitter-icon" title="twitter">
+								</a>
+								<a target="_blank" href="https://www.facebook.com/SPREADPR/">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/facebook.png" alt="facebook-icon" title="facebook">
+								</a>
+								<a target="_blank" href="https://www.linkedin.com/company/spread-pr-marketing-sales/">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/linkedin.png" alt="linkedin-icon" title="linkedin">
+								</a>
+								<a target="_blank" href="https://www.tiktok.com/@spreadpr">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/tik-tok.png" alt="TikTok-icon" title="Tik Tok">
+								</a>
+							</div>
+						</div>
+				
+						<div class="icon-burger">
+							<span class="burger-patty"></span>
+							<span class="burger-patty"></span>
+							<span class="burger-patty"></span>
+						</div>
+				
+						<nav class="sticky-nav-tabs">
+							<ul class="sticky-nav-tabs-container" id="top-menu">
+								<?php
+									if($title == "Home"){
+								?>
+									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
+									<li><a href="#about-us" class="sticky-nav-tab">About</a></li>
+									<li><a href="#core-services" class="sticky-nav-tab" >Services</a></li>
+									<li><a href="#our-clients" class="sticky-nav-tab" >Clients</a></li>
+									<li><a href="#our-team" class="sticky-nav-tab" >Team</a></li>
+									<li><a href="#contact" class="sticky-nav-tab" >Contact</a></li>
+									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
+								<?php } else { ?>
+									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
+									<li><a href="<?php echo home_url(); ?>/?id=about-us" class="sticky-nav-tab">About</a></li>
+									<li><a href="<?php echo home_url(); ?>/?id=core-services" class="sticky-nav-tab" >Services</a></li>
+									<li <?php if($title == "Clients"){ ?> class="active" <?php } ?>><a href="<?php echo home_url(); ?>/?id=our-clients" class="sticky-nav-tab" >Clients</a></li>
+									<li><a href="<?php echo home_url(); ?>/?id=our-team" class="sticky-nav-tab" >Team</a></li>
+									<li><a href="<?php echo home_url(); ?>/?id=contact" class="sticky-nav-tab" >Contact</a></li>
+									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
+								<?php } ?>
+							</ul>
+						</nav>
+					</div>
+
+	                
 
 	            </div>
 	        </header>

@@ -492,7 +492,7 @@ $title = get_the_title();
 	                    scrollTop: offsetTop
 	                }, 300);
 	                if ($(window).width() < 1024) {
-	                    offsetTop = href === "#" ? 0 : jQuery(id).offset().top - 60;
+	                    offsetTop = href === "#" ? 0 : jQuery(id).offset().top - 82;
 	                    jQuery('html, body').stop().animate({ 
 	                    scrollTop: offsetTop
 	                    }, 300);

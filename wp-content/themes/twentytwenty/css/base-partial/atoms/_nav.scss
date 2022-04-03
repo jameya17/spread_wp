@@ -4,7 +4,7 @@
             position: absolute;
             width: 100%;
             background: rgb(255, 255, 255);
-            top: 63px;
+            top: 82px;
             transition: all 0.5s ease;
             height: 0;
             overflow: hidden;
@@ -178,3 +178,45 @@
     }
 }
 
+.top-links{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    @media only screen and (max-width: 1024px){
+        position: relative;
+        top: unset;
+        right: -11px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 7px;
+
+    }
+
+    ul{
+        @include flexbox;
+        li{
+            border-right: 2px solid #0C4D43;
+            line-height: 15px;
+            &:last-child{
+                border:0;
+            }
+        }
+        a{
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 12px;
+            letter-spacing: 0em;
+            color: #0C4D43;
+            text-transform: uppercase;
+            padding: 0px 12px;
+
+            &:hover,&.active{
+                opacity: 0.6;
+                cursor: pointer;
+            }
+            &.active{
+                cursor: default;
+            }
+        }
+    }
+}

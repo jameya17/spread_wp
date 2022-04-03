@@ -96,7 +96,9 @@ get_header();
                     <section class="l-subsection popup" id="PR" style="display: none;">
                         <div class="popup-body">
                             <div class="l-col">
-                                <span class="popup-img pr-bg"></span>
+                                <span class="popup-img">
+                                    <img src="<?php bloginfo('template_directory'); ?>/images/pr-img.png" title="PR" alt="PR"/>
+                                </span>
                             </div>
                             <div class="r-col">
                                 <div class="r-col-pad">
@@ -123,7 +125,9 @@ get_header();
                     <section class="l-subsection popup" id="marketing" style="display: none;">
                         <div class="popup-body">
                             <div class="l-col">
-                                <span class="popup-img marketing-bg"></span>
+                                <span class="popup-img">
+                                    <img src="<?php bloginfo('template_directory'); ?>/images/marketing-img.png" title="Marketing" alt="Marketing"/>
+                                </span>
                             </div>
                             <div class="r-col">
                                 <div class="r-col-pad">
@@ -151,7 +155,9 @@ get_header();
                      <section class="l-subsection popup" id="consulting" style="display: none;">
                         <div class="popup-body">
                             <div class="l-col">
-                            <span class="popup-img consulting-bg"></span>
+                            <span class="popup-img">
+                                <img src="<?php bloginfo('template_directory'); ?>/images/consulting-img.png" title="Consulting" alt="Consulting"/>  
+                            </span>
                             </div>
                             <div class="r-col">
                                 <div class="r-col-pad">
@@ -290,7 +296,8 @@ get_header();
                                     <section class="l-subsection popup" id="<?php echo $popuplink; ?>-popup" style="display: none;"  >
                                         <div class="popup-body">
                                             <div class="l-col">
-                                                <span style="background-image:url('<?php the_field('team_pop_up_image'); ?>')" title="<?php the_title(); ?>">
+                                                <span>
+                                                    <img src="<?php the_field('team_pop_up_image'); ?>" title="<?php the_title(); ?>" />
                                                 </span>
                                             </div>
                                             <div class="r-col">
