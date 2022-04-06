@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Legal Template
+ * Template Name: Legal English Template
  *
  *
  * @package WordPress
@@ -8,7 +8,7 @@
  * @since 1.0.0
  */
 
-define("LANGUAGE", "de");
+define("LANGUAGE", "en");
 get_header();
 
 ?>        
@@ -18,8 +18,7 @@ get_header();
                 <div class="l-subsection-h pad-t-0 pad-b-0 pos-rel flex-align-right">
                 <select onchange="doGTranslate(this);" class="notranslate lang-selector mar-b-15" id="gtranslate_selector" aria-label="Website Language Selector"><option value="">Select Language</option><option value="en|en">English</option><option value="en|de">German</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
                 </div> 
-            </div>
-            -->
+            </div>-->
            <div class="page-banner">
                 <div class="l-subsection">
                     <div class="l-subsection-h">
@@ -48,7 +47,7 @@ get_header();
                                     <span>BANK: Raiffeisenbank Region Waldviertel Mitte</span>
                                 </div>
                                 <div class="publisher-details">
-                                    <span class="market-logo">Mitglied der Wirtschaftskammer Wien Fachgruppe Werbung und Marktkommunikation
+                                    <span class="market-logo">Member of the Vienna Chamber of Commerce, specialist group for advertising and market communication
                                         <img src="<?php bloginfo('template_directory'); ?>/images/market-commuication.jpeg" alt="weitter kommen" title="weitter kommen">
                                     </span>
                                  

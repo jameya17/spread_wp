@@ -21,7 +21,7 @@ $title = get_the_title();
 		?>
 		    <meta charset="utf-8" />
 		    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, viewport-fit=cover">
-		    <title>spread-vienna.com</title>
+		    <title>Spread | <?php echo $title; ?></title>
 			<meta name="description" content=""/>
 			<meta name="keywords" content=""/>
 			<meta property="og:title" content="" />
@@ -72,8 +72,49 @@ $title = get_the_title();
 	            <div class="header-pad">
 					<div class="top-links">
 						<ul>
-							<li><a class="active" href="">De</a></li>
-							<li><a href="">En</a></li>
+							<?php
+								$href = home_url();
+								if(LANGUAGE == "de"){
+									$href1 = "javascript:void(0);";
+									$id = 120;
+									$pageId = get_the_id();
+									if($pageId == 133){
+										$id = 107;
+									}
+									if($pageId == 109){
+										$id = 135;
+									}
+									if($pageId == 104){
+										$id = 137;
+									}
+									$href2 = get_the_permalink($id);
+
+							?>
+									<li><a class="active" href="<?php echo $href1; ?>">De</a></li>
+									<li><a href="<?php echo $href2; ?>">En</a></li>
+							<?php
+								}
+								else
+								{
+									$id = 6;
+									$pageId = get_the_id();
+									if($pageId == 107){
+										$id = 133;
+									}
+									if($pageId == 135){
+										$id = 109;
+									}
+									if($pageId == 137){
+										$id = 104;
+									}
+									$href1 = get_the_permalink($id);
+									$href2 = "javascript:void(0);";
+							?>
+									<li><a href="<?php echo $href1; ?>">De</a></li>
+									<li><a class="active" href="<?php echo $href2; ?>">En</a></li>
+							<?php
+								}
+							?>
 						</ul>
 					</div>
 					<div class="head-links">
@@ -121,11 +162,39 @@ $title = get_the_title();
 									if($title == "Home"){
 								?>
 									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
-									<li><a href="#about-us" class="sticky-nav-tab">About</a></li>
-									<li><a href="#core-services" class="sticky-nav-tab" >Services</a></li>
-									<li><a href="#our-clients" class="sticky-nav-tab" >Clients</a></li>
+									<?php
+                                	  $text = "Über uns";
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "About";
+                                	  }
+
+                                	?>
+									<li><a href="#about-us" class="sticky-nav-tab"><?php echo $text; ?></a></li>
+									<?php
+                                	  $text = "Leistungen";
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "Services";
+                                	  }
+
+                                	?>
+									<li><a href="#core-services" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
+									<?php
+                                	  $text = "Kunden";
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "Clients";
+                                	  }
+
+                                	?>
+									<li><a href="#our-clients" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
 									<li><a href="#our-team" class="sticky-nav-tab" >Team</a></li>
-									<li><a href="#contact" class="sticky-nav-tab" >Contact</a></li>
+									<?php
+                                	  $text = "Kontakt";
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "Contact";
+                                	  }
+
+                                	?>
+									<li><a href="#contact" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
 									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } else { ?>
 									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>

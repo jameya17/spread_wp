@@ -14,11 +14,12 @@ get_header();
 
         <div class="container">
             <div class="content">
-                <div class="l-subsection">
+                <!--<div class="l-subsection">
                    <div class="l-subsection-h pad-t-0 pad-b-0 pos-rel flex-align-right">
                     <select onchange="changeLanguage(this);" class="notranslate lang-selector" id="gtranslate_selector" aria-label="Website Language Selector"><option value="de" selected>German</option><option value="en">English</option></select><style>#goog-gt-tt{display:none!important;}.goog-te-banner-frame{display:none!important;}.goog-te-menu-value:hover{text-decoration:none!important;}.goog-text-highlight{background-color:transparent!important;box-shadow:none!important;}body{top:0!important;}#google_translate_element2{display:none!important;}</style>
                    </div> 
                 </div>
+                -->
                 <section class="content-box" data-anchor="home" id="home">
                     <div class="l-subsection">
                         <div class="l-subsection-h">
@@ -62,8 +63,8 @@ get_header();
                     <div class="l-subsection">
                         <div class="l-subsection-h">
                             <div class="intro-col mar-b-40">
-                                <h6>Core Services</h6>
-                                <h2>We can bundle disciplines to offer our customers all services from a single source</h2>
+                                <h6>Kernleistungen</h6>
+                                <h2>Der große Vorteil ist, dass wir die Disziplinen bündeln können und so Kunden alle Leistungen aus einer Hand bekommen.</h2>
                                 <p>Wir vernetzen, das bedeutet Synergien und individuellen Service für unsere Partner. Neben klassischer PR stimmen wir alle Instrumente moderner Kommunikation aufeinander ab. Der große Vorteil ist, dass wir die Disziplinen bündeln können und so Kunden alle Leistungen aus einer Hand bekommen.</p>
                             </div>
                             <div class="g-cols offset_none services-list">

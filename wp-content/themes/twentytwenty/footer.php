@@ -197,9 +197,32 @@ $title = get_the_title();
 	                    <span>@ SPREAD, VIENNA, 2022</span>
 	                </div>
 	                <div class="footer-links">
-	                    <a href="<?php the_permalink(104); ?>">Legal Notice </a>
-	                    <a href="<?php the_permalink(109); ?>">GTCS </a>
-	                    <a href="<?php the_permalink(107); ?>">Data Privacy</a>
+	                	<?php
+                    	  $id = 104;
+                    	  if(LANGUAGE == "en"){
+                    	  	$id = 137;
+                    	  }
+
+                    	?>
+	                    <a href="<?php the_permalink($id); ?>">Legal Notice </a>
+	                    <?php
+                    	  $id = 109;
+                    	  if(LANGUAGE == "en"){
+                    	  	$id = 135;
+                    	  }
+
+                    	?>
+	                    <a href="<?php the_permalink($id); ?>">GTCS </a>
+	                    <?php
+                    	  $text = "Datenschutz";
+                    	  $id = 133;
+                    	  if(LANGUAGE == "en"){
+                    	  	$text = "Data Privacy";
+                    	  	$id = 107;
+                    	  }
+
+                    	?>
+	                    <a href="<?php the_permalink($id); ?>"><?php echo $text; ?></a>
 	                </div>
 	            </div>
 	        </div>
