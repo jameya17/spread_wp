@@ -33,14 +33,14 @@ $title = get_the_title();
 	                                <div class="contact-info">
 	                                    <h2>Please contact us</h2>
 	                                    <div class="social-media-block">
-	                                        <a href="https://www.instagram.com/spreadpr/"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/insta-icon.svg" alt="instagram-icon" title="instagram"></a>
-	                                        <a href="https://twitter.com/spreadpr"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/twitter-icon.svg" alt="twitter-icon" title="twitter"></a>
-	                                        <a href="https://www.facebook.com/SPREADPR/"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/facebook-icon.svg" alt="facebook-icom" title="facebook"></a>
-	                                        <a href="https://www.linkedin.com/company/spread-pr-marketing-sales/"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/linkedin.svg" alt="linkedin-icon" title="linkedin"></a>
-											<a href="https://www.tiktok.com/@spreadpr"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/tik-tok.png" alt="tiktok-icon" title="Tik Tok"></a>
+	                                        <a href="https://www.instagram.com/spreadpr/" target="_blank"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/insta-icon.svg" alt="instagram-icon" title="instagram"></a>
+	                                        <a href="https://twitter.com/spreadpr" target="_blank"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/twitter-icon.svg" alt="twitter-icon" title="twitter"></a>
+	                                        <a href="https://www.facebook.com/SPREADPR/" target="_blank"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/facebook-icon.svg" alt="facebook-icom" title="facebook"></a>
+	                                        <a href="https://www.linkedin.com/company/spread-pr-marketing-sales/" target="_blank"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/linkedin.svg" alt="linkedin-icon" title="linkedin"></a>
+											<a href="https://www.tiktok.com/@spreadpr" target="_blank"> <img src="<?php bloginfo('template_directory'); ?>/images/social-media/tik-tok.png" alt="tiktok-icon" title="Tik Tok"></a>
 	                                    </div>
 	                                    <address>
-	                                        Wollzeile 20/8 A-1010 Wien, Österreich <a href="mailto:info@spread-vienna.com">info@spread-vienna.com</a> <a href="tel:+43 1 920 9274">+43 1 920 9274</a>
+	                                        Wollzeile 20/8 A-1010 Wien, Österreich <a href="mailto:info@spread-vienna.com" target="_blank">info@spread-vienna.com</a> <a href="tel:+43 1 920 9274" target="_blank">+43 1 920 9274</a>
 	                                    </address>
 	                                </div>
 	                            </div>
@@ -81,8 +81,8 @@ $title = get_the_title();
 
 	                                    	?>
 	                                        <span><?php echo $text; ?></span>
-	                                        <a href="mailto:cs@spread-vienna.com">cs@spread-vienna.com</a>
-	                                        <a href="tel:+43 660 4970931">+43 660 4970931</a>
+	                                        <a href="mailto:cs@spread-vienna.com" target="_blank">cs@spread-vienna.com</a>
+	                                        <a href="tel:+43 660 4970931" target="_blank">+43 660 4970931</a>
 	                                    </div>
 	                                </div>
 
@@ -98,8 +98,8 @@ $title = get_the_title();
 	                                    	?>
 	                                        <span><?php echo $text; ?></span>
 	                                        <span>Senior Consultant & Head of Media & Blogger Relations</span>
-	                                        <a href="mailto:kk@spread-vienna.com ">kk@spread-vienna.com</a>
-	                                        <a href="tel:++43 660 8648118">+43 660 8648118</a>
+	                                        <a href="mailto:kk@spread-vienna.com" target="_blank">kk@spread-vienna.com</a>
+	                                        <a href="tel:++43 660 8648118" target="_blank">+43 660 8648118</a>
 	                                    </div>
 	                                </div>
 	                            </div>
@@ -115,17 +115,17 @@ $title = get_the_title();
 
 	                                    	?>
 	                                        <span><?php echo $text; ?></span>
-	                                        <a href="mailto:bw@spread-vienna.com ">bw@spread-vienna.com</a>
-	                                        <a href="tel:+43 676 770 42 30">+43 676 770 42 30</a>
+	                                        <a href="mailto:bw@spread-vienna.com" target="_blank">bw@spread-vienna.com</a>
+	                                        <a href="tel:+43 676 770 42 30" target="_blank">+43 676 770 42 30</a>
 	                                    </div>
 	                                </div>
 
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Annika Hahn</h2>
 	                                    <div class="person-contact">
-	                                        <span>Senior Consultant & Head of Client Relations </span>
-	                                        <a href="mailto:ah@spread-vienna.com ">ah@spread-vienna.com </a>
-	                                        <a href="tel:+43 664 500 93 10">+43 664 500 93 10</a>
+	                                        <span>Senior Consultant & Head of Client Relations</span>
+	                                        <a href="mailto:ah@spread-vienna.com" target="_blank">ah@spread-vienna.com</a>
+	                                        <a href="tel:+43 664 500 93 10" target="_blank">+43 664 500 93 10</a>
 	                                    </div>
 	                                </div>
 	                            </div>
@@ -134,8 +134,8 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Susanne Sarbo</h2>
 	                                    <div class="person-contact">
 	                                        <span>Accounting & Reporting</span>
-	                                        <a href="mailto:su@spread-vienna.com">su@spread-vienna.com</a>
-	                                        <a href="tel:+43 1 920 9274">+43 1 920 9274</a>
+	                                        <a href="mailto:su@spread-vienna.com" target="_blank">su@spread-vienna.com</a>
+	                                        <a href="tel:+43 1 920 9274" target="_blank">+43 1 920 9274</a>
 	                                    </div>
 	                                </div>
 
@@ -150,8 +150,8 @@ $title = get_the_title();
 
 	                                    	?>
 	                                        <span><?php echo $text; ?></span>
-	                                        <a href="mailto:kd@spread-vienna.com">kd@spread-vienna.com</a>
-	                                        <a href="tel:+43 664 166 5020">+43 664 166 5020</a>
+	                                        <a href="mailto:kd@spread-vienna.com" target="_blank">kd@spread-vienna.com</a>
+	                                        <a href="tel:+43 664 166 5020" target="_blank">+43 664 166 5020</a>
 	                                    </div>
 	                                </div>
 	                            </div>
@@ -160,8 +160,8 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Laura Kernetzky</h2>
 	                                    <div class="person-contact">
 	                                        <span>PR Assistant & Junior Consultant</span>
-	                                        <a href="mailto:lk@spread-vienna.com">lk@spread-vienna.com</a>
-	                                        <a href="tel:+43 660 4970931">+43 660 555 2573</a>
+	                                        <a href="mailto:lk@spread-vienna.com" target="_blank">lk@spread-vienna.com</a>
+	                                        <a href="tel:+43 660 4970931" target="_blank">+43 660 555 2573</a>
 	                                    </div>
 	                                </div>
 
@@ -169,8 +169,8 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Sara Demir</h2>
 	                                    <div class="person-contact">
 	                                        <span>PR Assistant</span>
-	                                        <a href="mailto:sd@spread-vienna.com">sd@spread-vienna.com</a>
-	                                        <a href="tel:+43 676 979 8295">+43 676 979 8295</a>
+	                                        <a href="mailto:sd@spread-vienna.com" target="_blank">sd@spread-vienna.com</a>
+	                                        <a href="tel:+43 676 979 8295" target="_blank">+43 676 979 8295</a>
 	                                    </div>
 	                                </div>
 	                            </div>
