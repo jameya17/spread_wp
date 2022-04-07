@@ -204,7 +204,7 @@ $title = get_the_title();
                     	  }
 
                     	?>
-	                    <a href="<?php the_permalink($id); ?>">Legal Notice </a>
+	                    <a href="<?php the_permalink($id); ?>" target="_blank">Legal Notice </a>
 	                    <?php
                     	  $id = 109;
                     	  if(LANGUAGE == "en"){
@@ -212,7 +212,7 @@ $title = get_the_title();
                     	  }
 
                     	?>
-	                    <a href="<?php the_permalink($id); ?>">GTCS </a>
+	                    <a href="<?php the_permalink($id); ?>" target="_blank">GTCS </a>
 	                    <?php
                     	  $text = "Datenschutz";
                     	  $id = 133;
@@ -222,7 +222,7 @@ $title = get_the_title();
                     	  }
 
                     	?>
-	                    <a href="<?php the_permalink($id); ?>"><?php echo $text; ?></a>
+	                    <a href="<?php the_permalink($id); ?>" target="_blank"><?php echo $text; ?></a>
 	                </div>
 	            </div>
 	        </div>

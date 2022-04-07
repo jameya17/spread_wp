@@ -87,6 +87,9 @@ $title = get_the_title();
 									if($pageId == 104){
 										$id = 137;
 									}
+									if($pageId == 8){
+										$id = 140;
+									}
 									$href2 = get_the_permalink($id);
 
 							?>
@@ -106,6 +109,9 @@ $title = get_the_title();
 									}
 									if($pageId == 137){
 										$id = 104;
+									}
+									if($pageId == 140){
+										$id = 8;
 									}
 									$href1 = get_the_permalink($id);
 									$href2 = "javascript:void(0);";
@@ -198,11 +204,47 @@ $title = get_the_title();
 									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } else { ?>
 									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
-									<li><a href="<?php echo home_url(); ?>/?id=about-us" class="sticky-nav-tab">About</a></li>
-									<li><a href="<?php echo home_url(); ?>/?id=core-services" class="sticky-nav-tab" >Services</a></li>
-									<li <?php if($title == "Clients"){ ?> class="active" <?php } ?>><a href="<?php echo home_url(); ?>/?id=our-clients" class="sticky-nav-tab" >Clients</a></li>
-									<li><a href="<?php echo home_url(); ?>/?id=our-team" class="sticky-nav-tab" >Team</a></li>
-									<li><a href="<?php echo home_url(); ?>/?id=contact" class="sticky-nav-tab" >Contact</a></li>
+									<?php
+                                	  $text = "Über uns";
+                                	  $href = home_url();
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "About";
+                                	  	$href = get_the_permalink(120);
+                                	  }
+
+                                	?>
+									<li><a href="<?php echo $href; ?>/?id=about-us" class="sticky-nav-tab"><?php echo $text; ?></a></li>
+									<?php
+                                	  $text = "Leistungen";
+                                	  $href = home_url();
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "Services";
+                                	  	$href = get_the_permalink(120);
+                                	  }
+
+                                	?>
+									<li><a href="<?php echo $href; ?>/?id=core-services" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
+									<?php
+                                	  $text = "Kunden";
+                                	  $href = home_url();
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "Clients";
+                                	  	$href = get_the_permalink(120);
+                                	  }
+
+                                	?>
+									<li><a href="<?php echo $href; ?>/?id=our-clients" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
+									<li><a href="<?php echo $href; ?>/?id=our-team" class="sticky-nav-tab" >Team</a></li>
+									<?php
+                                	  $text = "Kontakt";
+                                	  $href = home_url();
+                                	  if(LANGUAGE == "en"){
+                                	  	$text = "Contact";
+                                	  	$href = get_the_permalink(120);
+                                	  }
+
+                                	?>
+									<li><a href="<?php echo $href; ?>/?id=contact" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
 									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } ?>
 							</ul>

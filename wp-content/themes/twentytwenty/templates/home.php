@@ -49,7 +49,7 @@ get_header();
 
                                 <div class="one-half">
                                     <div class="sec-info about-us-info">
-                                        <h6>About Us</h6>
+                                        <h6>ÜBER UNS</h6>
                                         <h2>SPREAD hat Know How. <br/>SPREAD hat Esprit. <br/>SPREAD hat Charakter.</h2>
                                         <p>Wir unterscheiden nicht zwischen kleinen und großen Aufträgen. Unser Wissen stellen wir allen gleichermaßen zur Verfügung. Vom Kleinunternehmen bis zum Weltkonzern. Nationale und internationale Unternehmen unterstützen wir in Deutschland, Österreich und der Schweiz. Interdisziplinär denken. Multidimensional planen. Flexibel umsetzen.</p>
                                     </div>    
@@ -181,9 +181,9 @@ get_header();
                             <div class="g-cols offset_default bdr-bt">
                                 <div class="one-half flex-align-right flex-align-center">
                                     <div class="col-info">
-                                        <h6>Our Clients</h6>
-                                        <h2>We are a modern PR agency that provides individual services to all customers</h2>
-                                        <p>From mid-sized businesses to higher education institutions to international corporations, we work with organizations striving to stand out and connect. Their goals and audiences are unique, but our clients all share one common ingredient: they understand the power of research, strategy, and creative when it comes to building authentic brands and compelling marketing experiences.</p>
+                                        <h6>UNSERE KUNDEN</h6>
+                                        <h2>Wir sind eine moderne PR-Agentur, die alle Kunden individuell betreut</h2>
+                                        <p>Von mittelständischen Unternehmen über Hochschuleinrichtungen bis hin zu internationalen Konzernen arbeiten wir mit Organisationen zusammen, die danach streben, sich abzuheben und Kontakte zu knüpfen. Ihre Ziele und Zielgruppen sind einzigartig, aber unsere Kunden haben alle eine gemeinsame Zutat: Sie verstehen die Kraft von Forschung, Strategie und Kreativität, wenn es darum geht, authentische Marken und überzeugende Marketingerlebnisse aufzubauen.</p>
                                     </div>    
                                 </div>
 
@@ -225,7 +225,7 @@ get_header();
                                 
                             </div>
                             <div class="flex-center">
-                                <a href="<?php the_permalink(8); ?>" class="text-link">View All</a>
+                                <a href="<?php the_permalink(8); ?>" target="_blank" class="text-link">View All</a>
                             </div>
                         </div>
                     </div>
