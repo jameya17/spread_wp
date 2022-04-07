@@ -128,7 +128,7 @@ $title = get_the_title();
 
 								?>
 								<a class="logo" href="<?php echo $href; ?>">
-									<img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Greenweeks Logo" title="Greenweeks Logo">
+									<img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Spread Logo" title="Spread Logo">
 								</a>
 							</div>
 							<div class="social-media">
@@ -195,7 +195,7 @@ $title = get_the_title();
 
                                 	?>
 									<li><a href="#contact" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
-									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
+									<li><a href="https://press.spread-vienna.com/News.aspx" target="_blank" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } else { ?>
 									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
 									<li><a href="<?php echo home_url(); ?>/?id=about-us" class="sticky-nav-tab">About</a></li>
@@ -203,7 +203,7 @@ $title = get_the_title();
 									<li <?php if($title == "Clients"){ ?> class="active" <?php } ?>><a href="<?php echo home_url(); ?>/?id=our-clients" class="sticky-nav-tab" >Clients</a></li>
 									<li><a href="<?php echo home_url(); ?>/?id=our-team" class="sticky-nav-tab" >Team</a></li>
 									<li><a href="<?php echo home_url(); ?>/?id=contact" class="sticky-nav-tab" >Contact</a></li>
-									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
+									<li><a href="https://press.spread-vienna.com/News.aspx" target="_blank" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } ?>
 							</ul>
 						</nav>

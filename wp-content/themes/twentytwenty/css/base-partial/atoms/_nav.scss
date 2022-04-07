@@ -206,12 +206,13 @@
             font-weight: 700;
             line-height: 12px;
             letter-spacing: 0em;
-            color: #0C4D43;
+            color:#847367;
             text-transform: uppercase;
             padding: 0px 12px;
 
             &:hover,&.active{
-                opacity: 0.6;
+                color: #0C4D43;
+                text-decoration: underline;
                 cursor: pointer;
             }
             &.active{

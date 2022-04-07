@@ -225,7 +225,7 @@ get_header();
                                 
                             </div>
                             <div class="flex-center">
-                                <a href="<?php the_permalink(8); ?>" class="text-link">View All</a>
+                                <a href="<?php the_permalink(8); ?>" target="_blank" class="text-link">View All</a>
                             </div>
                         </div>
                     </div>
