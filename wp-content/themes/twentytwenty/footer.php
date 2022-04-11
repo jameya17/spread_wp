@@ -137,8 +137,8 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Annika Hahn</h2>
 	                                    <div class="person-contact">
-	                                        <span>Senior Consultant & Head of Client Relations </span>
-	                                        <a href="mailto:ah@spread-vienna.com ">ah@spread-vienna.com </a>
+	                                        <span>Senior Consultant & Head of Client Relations</span>
+	                                        <a href="mailto:ah@spread-vienna.com">ah@spread-vienna.com</a>
 	                                        <a href="tel:+43 664 500 93 10">+43 664 500 93 10</a>
 	                                    </div>
 	                                </div>
@@ -257,7 +257,7 @@ $title = get_the_title();
 					
 					<div class="cookie-btn-panel">
 						<a href="javascript:void(0);" id="setCookie">OK</a>
-						<a href="<?php the_permalink($id); ?>">privacy</a>
+						<a href="<?php the_permalink($id); ?>" target="_blank">privacy</a>
 					</div>
 			
 					<a href="javascript:void(0);" id="closeCookie" class="cookie-close-icon"></a>

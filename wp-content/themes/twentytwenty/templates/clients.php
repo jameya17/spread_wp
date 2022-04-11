@@ -23,7 +23,7 @@ get_header();
             <div class="page-banner">
                 <div class="l-subsection">
                     <div class="l-subsection-h">
-                        <h1>Our Clients</h1>
+                        <h1>Unsere Kunden</h1>
                     </div>    
                 </div>      
             </div>
