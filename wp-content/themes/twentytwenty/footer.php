@@ -243,13 +243,21 @@ $title = get_the_title();
 
 			<div id="cookie-notice" class="cookie-sticky" <?php if(isset($_COOKIE['noticeCookie'])){ ?>style="display:none;"<?php } ?>>
 				<div class="wrap">
+					<?php
+						$id = 133;
+						$text = 'Wir verwenden Cookies, um unser Angebot zu verbessern, zu fördern und zu schützen. Indem Sie die Website weiter nutzen, stimmen Sie unserer Datenschutzerklärung zu.';
+						if(LANGUAGE == "en"){
+                    	  	$text = "We use cookies to improve, promote and protect our offer. By continuing to use the website, you agree to our privacy policy.";
+                    	  	$id = 107;
+                    	 }
+					?>
 					<div class="cookie-text">
-						<span>We use cookies to improve, promote and protect our offer. By continuing to use the website, you agree to our privacy policy.</span>
+						<span><?php echo $text; ?></span>
 					</div>    
 					
 					<div class="cookie-btn-panel">
 						<a href="javascript:void(0);" id="setCookie">OK</a>
-						<a href="<?php the_permalink(107); ?>">privacy</a>
+						<a href="<?php the_permalink($id); ?>">privacy</a>
 					</div>
 			
 					<a href="javascript:void(0);" id="closeCookie" class="cookie-close-icon"></a>
