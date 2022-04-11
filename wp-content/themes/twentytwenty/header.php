@@ -58,6 +58,18 @@ $title = get_the_title();
 			<meta charset="utf-8" />
 		    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, viewport-fit=cover">
 		    <title>Spread | <?php echo $title; ?></title>
+		    <meta name="description" content=""/>
+			<meta name="keywords" content=""/>
+			<meta property="og:title" content="" />
+			<meta property="og:description" content="" />
+			<meta property="og:url" content="" />
+			<meta property="og:image" content="http://www.greenweeks.at/wp-content/themes/twentytwenty/images/og-image.png" />
+			<meta property='og:image:type' content='image/png' />
+			<meta property="og:image:width" content="200" />
+			<meta property="og:image:height" content="200" />
+			<meta property="og:type" content="article" />
+			<meta property="og:site_name" content="Spread" />
+			<link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_directory'); ?>/images/favicon.png">
 		    <link href="<?php bloginfo('template_directory'); ?>/css/base.css" rel="stylesheet"/>
 		    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery-1.1.js"></script>
 
@@ -134,7 +146,7 @@ $title = get_the_title();
 
 								?>
 								<a class="logo" href="<?php echo $href; ?>">
-									<img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Spread Logo" title="Spread Logo">
+									<img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Greenweeks Logo" title="Greenweeks Logo">
 								</a>
 							</div>
 							<div class="social-media">
@@ -201,7 +213,7 @@ $title = get_the_title();
 
                                 	?>
 									<li><a href="#contact" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
-									<li><a href="https://press.spread-vienna.com/News.aspx" target="_blank" class="sticky-nav-tab green-btn">Newsroom</a></li>
+									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } else { ?>
 									<li style="display: none;"><a href="javascript:void(0);" class="sticky-nav-tab">home</a></li>
 									<?php
@@ -245,8 +257,7 @@ $title = get_the_title();
 
                                 	?>
 									<li><a href="<?php echo $href; ?>/?id=contact" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
-
-									<li><a href="https://press.spread-vienna.com/News.aspx" target="_blank" class="sticky-nav-tab green-btn">Newsroom</a></li>
+									<li><a href="/" class="sticky-nav-tab green-btn">Newsroom</a></li>
 								<?php } ?>
 							</ul>
 						</nav>

@@ -197,7 +197,7 @@ get_header();
                     </div>
                     <div class="l-subsection partners-sec">
                         <div class="l-subsection-h pad-t-0">
-                            <h6>Our Partners</h6>
+                            <h6>UNSERE PARTNER</h6>
                             <div id="clientSlider" class="client-list owl-carousel owl-theme">
                              <?php
 
@@ -225,7 +225,7 @@ get_header();
                                 
                             </div>
                             <div class="flex-center">
-                                <a href="<?php the_permalink(8); ?>" target="_blank" class="text-link">View All</a>
+                                <a href="<?php the_permalink(8); ?>" target="_blank" class="text-link">Alle ansehen</a>
                             </div>
                         </div>
                     </div>
@@ -236,8 +236,8 @@ get_header();
                         <div class="l-subsection-h pad-b-0">
                             <div class="g-cols offset_default">
                                 <div class="full-width team-head">
-                                    <h6>Our Team</h6>
-                                    <h2>The professionals in our team are experienced, creative and service oriented</h2>
+                                    <h6>Unser Team</h6>
+                                    <h2>Die Profis in unserem Team sind erfahren, kreativ und serviceorientiert</h2>
                                 </div>
                             </div>
                         </div>
@@ -279,7 +279,7 @@ get_header();
                                         <div class="col-info">
                                             <h2><?php the_title(); ?></h2>
                                             <?php the_field('team_short_description'); ?>
-                                            <a data-fancybox data-src="#<?php echo $popuplink; ?>-popup"   class="text-link" >Read More</a>
+                                            <a data-fancybox data-src="#<?php echo $popuplink; ?>-popup"   class="text-link" >Weiterlesen</a>
                                         </div>    
 
                                         <?php
