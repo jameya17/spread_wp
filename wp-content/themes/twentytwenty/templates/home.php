@@ -65,7 +65,7 @@ get_header();
                             <div class="intro-col mar-b-40">
                                 <h6>Kernleistungen</h6>
                                 <h2>Der große Vorteil ist, dass wir die Disziplinen bündeln können und so Kunden alle Leistungen aus einer Hand bekommen.</h2>
-                                <p>Wir vernetzen, das bedeutet Synergien und individuellen Service für unsere Partner. Neben klassischer PR stimmen wir alle Instrumente moderner Kommunikation aufeinander ab. Der große Vorteil ist, dass wir die Disziplinen bündeln können und so Kunden alle Leistungen aus einer Hand bekommen.</p>
+                                <p>Wir vernetzen, das bedeutet Synergien und individuellen Service für unsere Partner. Neben klassischer PR stimmen wir alle Instrumente moderner Kommunikation aufeinander ab.</p>
                             </div>
                             <div class="g-cols offset_none services-list">
                                
