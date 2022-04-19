@@ -146,7 +146,8 @@ $title = get_the_title();
 
 								?>
 								<a class="logo" href="<?php echo $href; ?>">
-									<img src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Greenweeks Logo" title="Greenweeks Logo">
+									<img class="desktop" src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Spread Logo" title="Spread Logo">
+									<img class="mobile" src="<?php bloginfo('template_directory'); ?>/images/spread-logo-mob.png" alt="Spread Logo" title="Spread Logo">
 								</a>
 							</div>
 							<div class="social-media">

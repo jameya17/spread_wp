@@ -51,7 +51,7 @@ h2 {
         font-size: 22px;
         line-height: 28px;
         margin-bottom: 15px;
-        br{display: none;}
+        // br{display: none;}
     }
 }
 h3 { 
@@ -322,4 +322,16 @@ small{
     color: #2B3144;
     margin-bottom: 20px;
     letter-spacing: -0.13px;
+}
+.desktop{
+    display: block;
+    @media only screen and (max-width: 1024px){
+        display: none;
+    }    
+}
+.mobile{
+    display: none;
+    @media only screen and (max-width: 1024px){
+        display: block;
+    }    
 }
