@@ -111,7 +111,8 @@ $title = get_the_title();
 
 	                                    	?>
 	                                        <span><?php echo $text; ?></span>
-	                                        <span>Senior Consultant & Head of Media & Blogger Relations</span>
+	                                        <span>Senior Consultant</span>
+	                                        <span>Head of Media & Blogger Relations</span>
 	                                        <a href="mailto:kk@spread-vienna.com ">kk@spread-vienna.com</a>
 	                                        <a href="tel:++43 660 8648118">+43 660 8648118</a>
 	                                    </div>
@@ -122,13 +123,16 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Bianca Wietzke</h2>
 	                                    <div class="person-contact">
 	                                    	<?php
-	                                    	  $text = "Senior Consultant & Projektmanagement";
+	                                    	  $text1 = "Senior Consultant &";
+	                                    	  $text2 = "Projektmanagement";
 	                                    	  if(LANGUAGE == "en"){
-	                                    	  	$text = "Senior Consultant & Project Management";
+	                                    	  	$text1 = "Senior Consultant &";
+	                                    	  	$text2 = "Project Management";
 	                                    	  }
 
 	                                    	?>
-	                                        <span><?php echo $text; ?></span>
+	                                        <span><?php echo $text1; ?></span>
+	                                        <span><?php echo $text2; ?></span>
 	                                        <a href="mailto:bw@spread-vienna.com ">bw@spread-vienna.com</a>
 	                                        <a href="tel:+43 676 770 42 30">+43 676 770 42 30</a>
 	                                    </div>
@@ -137,7 +141,8 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Annika Hahn</h2>
 	                                    <div class="person-contact">
-	                                        <span>Senior Consultant & Head of Client Relations</span>
+	                                        <span>Senior Consultant &</span>
+	                                        <span>Head of Client Relations</span>
 	                                        <a href="mailto:ah@spread-vienna.com">ah@spread-vienna.com</a>
 	                                        <a href="tel:+43 664 500 93 10">+43 664 500 93 10</a>
 	                                    </div>
@@ -157,13 +162,16 @@ $title = get_the_title();
 	                                    <h2 class="link-head">Katharina Dulberg</h2>
 	                                    <div class="person-contact">
 	                                    	<?php
-	                                    	  $text = "Senior Consultant Events & Projekt PR";
+	                                    	  $text1 = "Senior Consultant Events &";
+	                                    	  $text2 = "Projekt PR";
 	                                    	  if(LANGUAGE == "en"){
-	                                    	  	$text = "Senior Consultant Events & Project PR";
+	                                    	  	$text1 = "Senior Consultant Events &";
+	                                    	  	$text2 = "Project PR";
 	                                    	  }
 
 	                                    	?>
-	                                        <span><?php echo $text; ?></span>
+	                                        <span><?php echo $text1; ?></span>
+	                                        <span><?php echo $text2; ?></span>
 	                                        <a href="mailto:kd@spread-vienna.com">kd@spread-vienna.com</a>
 	                                        <a href="tel:+43 664 166 5020">+43 664 166 5020</a>
 	                                    </div>
@@ -173,7 +181,7 @@ $title = get_the_title();
 	                                <div class="one-half links-col">
 	                                    <h2 class="link-head">Laura Kernetzky</h2>
 	                                    <div class="person-contact">
-	                                        <span>PR Assistant & Junior Consultant</span>
+	                                        <span>Junior Consultant</span>
 	                                        <a href="mailto:lk@spread-vienna.com">lk@spread-vienna.com</a>
 	                                        <a href="tel:+43 660 4970931">+43 660 555 2573</a>
 	                                    </div>

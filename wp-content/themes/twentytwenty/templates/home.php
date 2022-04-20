@@ -63,7 +63,7 @@ get_header();
                     <div class="l-subsection">
                         <div class="l-subsection-h">
                             <div class="intro-col mar-b-40">
-                                <h6>Kernleistungen</h6>
+                                <h6>Leistungen</h6>
                                 <h2>Der große Vorteil ist, dass wir die Disziplinen bündeln können und so Kunden alle Leistungen aus einer Hand bekommen.</h2>
                                 <p>Wir vernetzen, das bedeutet Synergien und individuellen Service für unsere Partner. Neben klassischer PR stimmen wir alle Instrumente moderner Kommunikation aufeinander ab.</p>
                             </div>
@@ -237,7 +237,7 @@ get_header();
                             <div class="g-cols offset_default">
                                 <div class="full-width team-head">
                                     <h6>Unser Team</h6>
-                                    <h2>Die Profis in unserem Team sind erfahren, kreativ und serviceorientiert</h2>
+                                    <h2>Wir sind erfahren, kreativ und serviceorientiert</h2>
                                 </div>
                             </div>
                         </div>
