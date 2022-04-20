@@ -934,9 +934,11 @@ body{
 .bdr-bt{
     border-bottom: 1px solid #d0d0d0;
     @media only screen and (max-width: 1024px){
-        display: none;
+        border-bottom: 0;
+        padding-bottom: 15px;
     }
 }
+
 
 
 .link-head {
