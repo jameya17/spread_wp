@@ -198,9 +198,9 @@ $title = get_the_title();
                                 	?>
 									<li><a href="#core-services" class="sticky-nav-tab" ><?php echo $text; ?></a></li>
 									<?php
-                                	  $text = "Kunden";
+                                	  $text = "Referenzen";
                                 	  if(LANGUAGE == "en"){
-                                	  	$text = "Clients";
+                                	  	$text = "References";
                                 	  }
 
                                 	?>

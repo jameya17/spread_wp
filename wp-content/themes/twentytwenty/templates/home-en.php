@@ -232,7 +232,7 @@ get_header();
                             <div class="g-cols offset_default">
                                 <div class="full-width team-head">
                                     <h6>Our Team</h6>
-                                    <h2>The professionals in our team are experienced, creative and service oriented</h2>
+                                    <h2>We are experienced, creative and service oriented</h2>
                                 </div>
                             </div>
                         </div>
