@@ -199,8 +199,8 @@ get_header();
                                 $args = array(
                                     'post_type' => 'clients',
                                     'post_status' => 'publish',
-                                    'meta_key' => 'client_order',
-                                    'orderby' => 'meta_value_num',
+                                    //'meta_key' => 'client_order',
+                                    'orderby' => 'meta_value title',
                                     'order' => 'ASC',
                                     'posts_per_page' => -1,
                                 );
