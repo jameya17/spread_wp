@@ -221,20 +221,24 @@ $title = get_the_title();
 	                <div class="footer-links">
 	                	<?php
                     	  $id = 104;
+                    	  $text = "Impressum";
                     	  if(LANGUAGE == "en"){
+                    	  	$text = "Legal Notice";
                     	  	$id = 137;
                     	  }
 
                     	?>
-	                    <a href="<?php the_permalink($id); ?>" target="_blank">Legal Notice </a>
+	                    <a href="<?php the_permalink($id); ?>" target="_blank"><?php echo $text; ?></a>
 	                    <?php
                     	  $id = 109;
+                    	  $text = "AGB";
                     	  if(LANGUAGE == "en"){
+                    	  	$text = "GTCS";
                     	  	$id = 135;
                     	  }
 
                     	?>
-	                    <a href="<?php the_permalink($id); ?>" target="_blank">GTCS </a>
+	                    <a href="<?php the_permalink($id); ?>" target="_blank"><?php echo $text; ?></a>
 	                    <?php
                     	  $text = "Datenschutz";
                     	  $id = 133;

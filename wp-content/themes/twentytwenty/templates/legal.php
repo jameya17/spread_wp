@@ -23,7 +23,7 @@ get_header();
            <div class="page-banner">
                 <div class="l-subsection">
                     <div class="l-subsection-h">
-                        <h1>Legal Notice</h1>
+                        <h1>Impressum</h1>
                     </div>    
                 </div>      
            </div>

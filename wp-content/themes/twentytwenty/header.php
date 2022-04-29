@@ -154,9 +154,9 @@ $title = get_the_title();
 								<a target="_blank"  href="https://www.instagram.com/spreadpr/">
 									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/instagram.png" alt="instagram-icon" title="Instagram">
 								</a>
-								<a target="_blank" href="https://twitter.com/spreadpr">
+								<!--<a target="_blank" href="https://twitter.com/spreadpr">
 									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/twitter.png" alt="twitter-icon" title="twitter">
-								</a>
+								</a>-->
 								<a target="_blank" href="https://www.facebook.com/SPREADPR/">
 									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/facebook.png" alt="facebook-icon" title="facebook">
 								</a>
