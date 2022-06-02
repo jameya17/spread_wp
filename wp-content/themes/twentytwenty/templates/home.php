@@ -26,7 +26,7 @@ get_header();
                             <div class="g-cols offset_default">
                                 <div class="full-col intro-col intro-wrap">
                                     <div class="intro-img">
-                                        <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo-big.png" />
+                                        <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo-big.svg" />
                                     </div>
                                     <div class="intro-content">
                                         <p>Wir haben keine Kunden. Wir haben Partner! Menschen, die uns vertrauen. Menschen, mit denen wir gerne zusammenarbeiten. Für sie sind wir da. Als Team, das eine Sprache spricht. Respekt vor der Aufgabe. Mut zu neuen Wegen. Kraft in der Kommunikation. Wir begleiten unsere Partner professionell und mit Herz durch die Welt der Medien- und Öffentlichkeitsarbeit. Das ist, was uns ausmacht.</p>

@@ -146,25 +146,25 @@ $title = get_the_title();
 
 								?>
 								<a class="logo" href="<?php echo $href; ?>">
-									<img class="desktop" src="<?php bloginfo('template_directory'); ?>/images/spread-logo.png" alt="Spread Logo" title="Spread Logo">
-									<img class="mobile" src="<?php bloginfo('template_directory'); ?>/images/spread-logo-mob.png" alt="Spread Logo" title="Spread Logo">
+									<img class="desktop" src="<?php bloginfo('template_directory'); ?>/images/spread-logo.svg" alt="Spread Logo" title="Spread Logo">
+									<img class="mobile" src="<?php bloginfo('template_directory'); ?>/images/spread-logo-mob.svg" alt="Spread Logo" title="Spread Logo">
 								</a>
 							</div>
 							<div class="social-media">
 								<a target="_blank"  href="https://www.instagram.com/spreadpr/">
-									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/instagram.png" alt="instagram-icon" title="Instagram">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/instagram.svg" alt="instagram-icon" title="Instagram">
 								</a>
 								<!--<a target="_blank" href="https://twitter.com/spreadpr">
 									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/twitter.png" alt="twitter-icon" title="twitter">
 								</a>-->
 								<a target="_blank" href="https://www.facebook.com/SPREADPR/">
-									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/facebook.png" alt="facebook-icon" title="facebook">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/facebook.svg" alt="facebook-icon" title="facebook">
 								</a>
 								<a target="_blank" href="https://www.linkedin.com/company/spread-pr-marketing-sales/">
-									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/linkedin.png" alt="linkedin-icon" title="linkedin">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/linkedin.svg" alt="linkedin-icon" title="linkedin">
 								</a>
 								<a target="_blank" href="https://www.tiktok.com/@spreadpr">
-									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/tik-tok.png" alt="TikTok-icon" title="Tik Tok">
+									<img src="<?php bloginfo('template_directory'); ?>/images/header-logos/tik-tok.svg" alt="TikTok-icon" title="Tik Tok">
 								</a>
 							</div>
 						</div>
