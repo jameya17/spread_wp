@@ -112,7 +112,7 @@ $title = get_the_title();
 	                                    	?>
 	                                        <span><?php echo $text; ?></span>
 	                                        <span>Senior Consultant</span>
-	                                        <span>Head of Media & Blogger Relations</span>
+	                                        <span>Head of Media & Influencer Relations</span>
 	                                        <a href="mailto:kk@spread-vienna.com ">kk@spread-vienna.com</a>
 	                                        <a href="tel:++43 660 8648118">+43 660 8648118</a>
 	                                    </div>
@@ -215,7 +215,7 @@ $title = get_the_title();
 	        <div class="footer-info"  >
 	            <div class="wrap">
 	                <div class="logo-block">
-	                    <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo-white.png" alt="Spread" title="Spread">
+	                    <img src="<?php bloginfo('template_directory'); ?>/images/spread-logo-white.svg" width="120" alt="Spread" title="Spread">
 	                    <span>@ SPREAD, VIENNA, 2022</span>
 	                </div>
 	                <div class="footer-links">
