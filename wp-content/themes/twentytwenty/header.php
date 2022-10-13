@@ -27,7 +27,7 @@ $title = get_the_title();
 			<meta property="og:title" content="" />
 			<meta property="og:description" content="" />
 			<meta property="og:url" content="" />
-			<meta property="og:image" content="http://www.greenweeks.at/wp-content/themes/twentytwenty/images/og-image.png" />
+			<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/og-image.png" />
 			<meta property='og:image:type' content='image/png' />
 			<meta property="og:image:width" content="200" />
 			<meta property="og:image:height" content="200" />
