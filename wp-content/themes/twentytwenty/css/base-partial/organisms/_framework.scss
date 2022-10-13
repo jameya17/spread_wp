@@ -126,12 +126,12 @@ body{
         position: relative;
         p{
             text-align: center;
-            font: 400 24px/36px 'Playfair Display', sans-serif;
+            font: 400 24px/36px 'Playfair Display Regular', sans-serif;
             letter-spacing: 0.36px;
             color: #0C4D43;
             opacity: 1;  
             @media only screen and (max-width: 1024px){
-                font: 400 18px/24px 'Playfair Display', sans-serif;
+                font: 400 18px/24px 'Playfair Display Regular', sans-serif;
             }
         }
     }
