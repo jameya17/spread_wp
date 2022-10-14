@@ -1336,6 +1336,7 @@ small {
     .top-links ul a {
       font-size: 12px;
       font-weight: 700;
+      font-family: 'Inter Bold', sans-serif;
       line-height: 12px;
       letter-spacing: 0em;
       color: #847367;
